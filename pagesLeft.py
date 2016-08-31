@@ -5,7 +5,7 @@ totalPages = # Insert total number of pages here
 
 d = str((totalPages - pagesRead) / daysLeft)
 pagesLeft = totalPages - int(pagesRead)
-percentage = round(100*(pagesRead / totalPages), 3)  # rounds float to nearest hundredth
+percentage = round(100*(pagesRead / totalPages), 2)  # rounds float to nearest hundredth
 
 if d.endswith('.0'):
 	pagesPerDay = int((totalPages - pagesRead) / daysLeft)
