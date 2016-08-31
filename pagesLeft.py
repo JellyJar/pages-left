@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 pagesRead = int(input('How many pages have you read?\n'))  # you can convert to input to int
 daysLeft = int(input('How many days do you have left?\n'))
-totalPages = input(# Insert total number of pages here)
+totalPages = input('How many pages does your book have?\n')  # Insert total number of pages here - this is currently just a place holder until I use a better method of keep track of pages per book
 
 d = str((totalPages - pagesRead) / daysLeft)
 pagesLeft = totalPages - int(pagesRead)
