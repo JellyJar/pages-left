@@ -5,9 +5,6 @@ Python script to calculate the pace for readers' pacing with their books, by cal
 
 Goals & Desired Improvements:
 
-* Percentage
--Add option to round to nearest hundredth rather than whole integer (i.e. 49.57% instead of 50%)
-
 * Importing
 - Options to import dates and use dates rather than a fixed amount of dates.
 - Options to import time
